@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <title>Gaming Reviews</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+        background-image: url('imgs/main_background.webp');
+      }
+
+      .header {
+        background-color: red;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .navbar {
+        background-color: darkgray;
+        padding: 10px;
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .navbar a {
+          display: block;
+          width: 100%;
+          text-align: center;
+          margin: 5px 0;
+        }
+
+        .image-card {
+          margin: 10px 0;
+        }
+      }
+
+      .content {
+        padding: 20px;
+        margin: 0 auto;
+      }
+
+      .background-image {
+        background-image: url('imgs/newbackground_one.webp');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+      }
+
+      .image-container {
+        text-align: center;
+        margin-bottom: 100px;
+      }
+
+      .image-card {
+        background-color: #333;
+        color: white;
+        border: 1px solid #555;
+        border-radius: 5px;
+        margin: 20px;
+        width: 300px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        box-shadow: 0px 4px 8px red;
+      }
+
+      @media screen and (max-width: 768px) {
+        .image-card {
+          width: 100%;
+        }
+      }
+
+      .image-card img {
+        width: 100%;
+        max-width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+      .image-card-content {
+        padding: 10px;
+      }
+
+      .image-card h3 {
+        margin: 0;
+        font-size: 1.2em;
+      }
+
+      .image-card p {
+        margin: 0;
+        font-size: 1em;
+      }
+
+      .search-icon,
+      .account,
+      .bars {
+        display: flex;
+        align-items: center;
+        margin: 30px;
+      }
+
+      .search-icon i,
+      .account i,
+      .bars i {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Welcome to Gaming Reviews</h1>
+    </div>
+    <div class="search-icon">
+      <i class="fas fa-search fa-2x"></i>
+      <span>Search</span>
+    </div>
+    <div class="account">
+      <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
+      <span>Account</span>
+    </div>
+    <div class="bars">
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      <span>Menu</span>
+    </div>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="video_games_reviews.html">Video Games Reviews</a>
+      <a href="gaming_hardware_reviews.html">Gaming Hardware Reviews</a>
+      <a href="breaking_gaming_news.html">Breaking Gaming News</a>
+    </div>
+    <div class="content">
+      <h2>Welcome to our gaming review website!</h2>
+      <p>We provide in-depth reviews of gaming equipment, video games, and more. Stay updated with the latest gaming trends and make informed decisions.</p>
+      <p>Users will be able to give their own reviews on gaming equipment, video games, and many more and feel free to judge my own reviews.</p>
+    </div>
+    <div class="background-image"></div>
+    <div class="image-container">
+      <div class="image-card">
+        <img src="imgs/videogame_review.jpg" alt="Image 1" width="300" height="200">
+        <div class="image-card-content">
+          <h3>Video Game Reviews</h3>
+          <p>Explore our detailed reviews of various video games in which can give you insight if interested in buying these video games. All reviews are based on experience when it comes playing these video games that are reviewed.</p>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="imgs/videogames.gif" alt="Image 2" width="300" height="200">
+        <div class="image-card-content">
+          <h3>Video Games</h3>
+          <p>Discover the latest video game releases and get insights into the gaming world. Get some reviewed information on new releases of video games that are either coming into the gaming are just got released into the gaming world. Learn if it's worth getting based on insight.</p>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="imgs/gamingequipment.webp" alt="Image 3" width="300" height="200">
+        <div class="image-card-content">
+          <h3>Gaming Equipment</h3>
+          <p>Find out about the best gaming gear and accessories for an enhanced gaming experience. All gaming equipment and accessories are reviewed from gamers that have used in order to give insight to gamers of the quality of the equipment in which can help gamers decide what gaming equipment and accessories are best fit for them.</p>
+        </div>
+      </div>
+    </div>
+    <a href="https://www.example.com" target="_blank">Visit Example.com</a>
+    <a href="https://www.anotherexample.com" target="_blank">Visit AnotherExample.com</a>
+  </body>
